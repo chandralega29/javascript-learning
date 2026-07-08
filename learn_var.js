@@ -22,7 +22,6 @@ console.log(name);
 var name = "kavi";   // Redeclaration
 
 console.log(name);
-```
 
 // **Output**
 
@@ -31,3 +30,7 @@ console.log(name);
 // Lega
 // kavi
 // ```
+var omm;
+console.log(omm)
+var omm=10
+

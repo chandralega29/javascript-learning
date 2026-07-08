@@ -21,6 +21,7 @@ Dynamically typed: Variable types are determined at runtime.
 Single-threaded: Executes one task at a time (but supports asynchronous operations).
 
 
+
 Without JavaScript, webpages would only display static content. JavaScript allows users to interact with webpages through buttons, forms, animations, search suggestions, and many other interactive features.
 
 ---
@@ -29,7 +30,7 @@ Without JavaScript, webpages would only display static content. JavaScript allow
 
 
 
-## Client-Side and Server-Side Dynamic Content
+## Dynamic Content
 
 Dynamic content means the webpage changes or updates based on user actions or data **without reloading the entire page**.
 

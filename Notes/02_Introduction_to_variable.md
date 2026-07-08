@@ -18,11 +18,11 @@ Name
 │  Chandra    │
 └─────────────┘
 ```
-
 Here,
 
 - `name` is the variable.
 - `"Chandra"` is the value stored in the variable.
+
 
 ### Example
 
@@ -41,6 +41,8 @@ console.log(age);
 - Cannot begin with a number.
 - Variable names are case-sensitive.
 - Reserved keywords cannot be used as variable names.
+
+
 
 
 # Variable Declaration Keywords
