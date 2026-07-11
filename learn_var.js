@@ -33,4 +33,3 @@ console.log(name);
 var omm;
 console.log(omm)
 var omm=10
-

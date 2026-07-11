@@ -144,12 +144,6 @@ let age;
 console.log(age);
 ```
 
-### Difference between Null and Undefined
-
-| Null | Undefined |
-|------|-----------|
-| Intentionally empty | No value assigned yet |
-| Assigned by the programmer | Assigned automatically by JavaScript |
 
 ### Example
 
