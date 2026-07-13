@@ -57,53 +57,7 @@ JavaScript has the following operator types:
 
 ---
 
-# 2. Assignment Operators
 
-## Definition
-
-Assignment operators assign values to variables.
-
-Some assignment operators also perform calculations while assigning.
-
-### Operators
-
-| Operator | Description |
-|----------|-------------|
-| = | Assign |
-| += | Add and assign |
-| -= | Subtract and assign |
-| *= | Multiply and assign |
-| /= | Divide and assign |
-| %= | Modulus and assign |
-
-### Example
-
-```javascript
-let marks = 50;
-
-marks += 20;
-marks *= 2;
-
-console.log(marks);
-```
-
-**Output**
-
-```
-140
-```
-
-### Real-world Example
-
-```javascript
-let balance = 1000;
-
-balance += 500;
-
-console.log(balance);
-```
-
----
 
 # 3. Comparison Operators
 
