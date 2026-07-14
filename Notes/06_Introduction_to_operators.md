@@ -57,51 +57,6 @@ JavaScript has the following operator types:
 
 ---
 
-
-
-```
-
----
-
-# 4. Logical Operators
-
-## Definition
-
-Logical operators combine two or more conditions.
-
-### Operators
-
-| Operator | Description |
-|----------|-------------|
-| && | Logical AND |
-| || | Logical OR |
-| ! | Logical NOT |
-
-### Example
-
-```javascript
-let age = 20;
-let hasID = true;
-
-console.log(age >= 18 && hasID);
-console.log(age >= 18 || hasID);
-console.log(!hasID);
-```
-
-**Output**
-
-```
-true
-true
-false
-```
-
-### Real-world Example
-
-A student can write the exam only if attendance is above 75% **AND** fees are paid.
-
----
-
 # 5. Bitwise Operators
 
 ## Definition
