@@ -60,42 +60,6 @@ JavaScript has the following operator types:
 
 ---
 
-# 6. Ternary Operator
-
-## Definition
-
-The ternary operator is a short form of an `if...else` statement.
-
-### Syntax
-
-```javascript
-condition ? value1 : value2;
-```
-
-### Example
-
-```javascript
-let age = 18;
-
-let status = age >= 18 ? "Adult" : "Minor";
-
-console.log(status);
-```
-
-**Output**
-
-```
-Adult
-```
-
-### Real-world Example
-
-```javascript
-let marks = 80;
-
-let result = marks >= 50 ? "Pass" : "Fail";
-
-console.log(result);
 ```
 
 ---
