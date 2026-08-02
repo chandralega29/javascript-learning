@@ -1,31 +1,59 @@
-// SWITCH STATEMENT
+// SWITCH STATEMENT:
+// A switch statement is used to check multiple possible values of a variable.
 
-// switch is used when one variable needs to be compared
-// against multiple possible values.
+// It is an alternative to writing many else if statements.
 
-let item = "mango";
+// Why use switch?
 
+// Instead of this:
+
+// if (item === 'apple') {
+//   console.log('Apple');
+// } 
+// else if (item === 'banana') {
+//   console.log('Banana');
+// } 
+// else if (item === 'orange') {
+//   console.log('Orange');
+// }
+
+// We can write:
+let item = "mango"
 switch (item) {
-  case "apple":
-    console.log("Apple");
+  case 'apple':
+    console.log('Apple');
+    break;
+    case 'mango':
+    console.log('Apple');
     break;
 
-  case "mango":
-    console.log("Mango");
+  case 'banana':
+    console.log('Banana');
     break;
 
-  case "banana":
-    console.log("Banana");
-    break;
-
-  case "orange":
-    console.log("Orange");
+  case 'orange':
+    console.log('Orange');
     break;
 
   default:
-    console.log("Unknown item");
+    console.log('Unknown item');
 }
+//We use break in a switch statement to stop execution after a matching case runs.
 
-// break stops execution after a matching case.
-// Without break, JavaScript continues to execute
-// the following cases (called fall-through).
+//Without break, JavaScript continues executing the next cases too.
+// Cleaner and easier to read.
+
+// Syntax
+// switch (expression) {
+
+//   case value1:
+//     // code
+//     break;
+
+//   case value2:
+//     // code
+//     break;
+
+//   default:
+//     // code
+// }
